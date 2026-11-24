@@ -1,0 +1,41 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+
+# Виртуальные окружения
+venv/
+.venv/
+env/
+ENV/
+
+# Переменные окружения и секреты (важно не загружать пароли и токены!)
+.env
+.env.*
+!.env.example
+
+# --- Базы данных и локальные данные ---
+*.sqlite
+*.sqlite3
+*.db
+*.log
+
+# --- Docker ---
+# Локальные переопределения compose (если используются)
+docker-compose.override.yml
+
+# --- IDE и редакторы ---
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# --- Операционные системы ---
+.DS_Store
+Thumbs.db
+desktop.ini
